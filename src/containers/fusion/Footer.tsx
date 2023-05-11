@@ -1,6 +1,7 @@
 
 import { FooterOverlay } from '@/components/fusion';
 import styles from '@/styles/Footer.module.css';
+import Image from 'next/image';
 import Link from 'next/link';
 import { FiFacebook, FiInstagram } from 'react-icons/fi';
 import { SiGooglemybusiness } from 'react-icons/si';
@@ -19,9 +20,9 @@ export const Footer = () => (
       </div>
 
       <div className={classNames(styles["app__footer-links_logo"], "flex flex-col items-center")}>
-        <img src="/fusion/mesegares-hori.png" alt="footer_logo" />
+        <Image src="/fusion/mesegares-hori.png" alt="footer_logo" width={300} height={70}/>
         <p className="p__opensans">&quot;Fusión de sabores, pasión en cada bocado.&quot;</p>
-        <img src="/fusion/spoon.svg" className="spoon__img" style={{ marginTop: 15 }} />
+        <Image src="/fusion/spoon.svg" alt='spoon' className="spoon__img mt-[15px]"  width={40} height={10} />
         <div className={classNames(styles["app__footer-links_icons"],"flex justify-center")}>
           <Link href="#">
             <FiFacebook />

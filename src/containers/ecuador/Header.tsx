@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 // import variants
 import { fadeIn, staggerContainer } from '@/utils/variants';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // header variants
 const headerVariants = {
@@ -102,12 +103,14 @@ export const Header = () => {
           >
             <Link href='/ecuador'>
               {/* if header is active make logo 90 x 90 px else 107 x 107px */}
-              <img
+              <Image
                 className={`${
                   isActive ? 'w-[100px] h-[100px]' : 'w-[120px] h-[120px]'
                 } rounded-full `}
                 src="/ecuador/header/logo-white.png"
                 alt=''
+                width={500}
+                height={500}
               />
             </Link>
           </motion.div>

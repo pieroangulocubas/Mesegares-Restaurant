@@ -1,5 +1,5 @@
 
-export const fadeIn = (direction, type, delay, duration) => {
+export const fadeIn = (direction:string, type:String, delay:number, duration:any) => {
   return {
     hidden: {
       x: direction === 'left' ? 80 : direction === 'right' ? -80 : 0,
@@ -20,7 +20,7 @@ export const fadeIn = (direction, type, delay, duration) => {
   };
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => {
+export const staggerContainer = (staggerChildren:any, delayChildren:any) => {
   return {
     hidden: {},
     show: {

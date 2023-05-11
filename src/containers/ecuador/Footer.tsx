@@ -1,13 +1,13 @@
-import { Copyright,Socials } from '@/containers/ecuador'
+import { Copyright, Socials } from '@/containers/ecuador';
 // import data
 import { footerData } from '@/constants/data';
 // import motion
 import { motion } from 'framer-motion';
 // import variants
-import { fadeIn, staggerContainer } from 'utils/variants';
 import Link from 'next/link';
-import { SiGooglemaps } from 'react-icons/si';
 import { IoIosCall } from 'react-icons/io';
+import { SiGooglemaps } from 'react-icons/si';
+import { fadeIn } from 'utils/variants';
 
 
 export const Footer = () => {
@@ -18,7 +18,6 @@ export const Footer = () => {
       <div className='container mx-auto h-full'>
         {/* newsletter & info */}
         <motion.div
-          variants={staggerContainer}
           initial='hidden'
           whileInView={'show'}
           className='h-full flex flex-col gap-y-4'

@@ -14,7 +14,7 @@ export const Chef = () => (
 
       <div className={classNames(styles["app__chef-content"])}>
         <div className={classNames(styles["app__chef-content_quote"])}>
-          <img src="/fusion/quote.png" alt="quote_image" />
+          <Image src="/fusion/quote.png" alt="quote_image" width={94} height={80} />
           <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
         </div>
         <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>

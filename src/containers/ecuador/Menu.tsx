@@ -3,7 +3,7 @@ import { menuData } from '@/constants/data';
 // import motion
 import { motion } from 'framer-motion';
 // import variants
-import { fadeIn, staggerContainer } from '@/utils/variants';
+import { fadeIn } from '@/utils/variants';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -19,7 +19,6 @@ export const Menu = () => {
       {/* text */}
       <div className='relative z-10 top-72 lg:top-52'>
         <motion.div
-          variants={staggerContainer}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.1 }}

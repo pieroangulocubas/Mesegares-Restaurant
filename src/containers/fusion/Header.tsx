@@ -1,6 +1,7 @@
 
 import { SubHeading } from '@/components/fusion';
 import styles from '@/styles/Header.module.css';
+import Image from 'next/image';
 import Link from 'next/link';
 import { classNames } from 'utils/classNames';
 
@@ -14,7 +15,7 @@ export const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src="/fusion/welcome.png" alt="imagen de la cabecera" />
+      <Image src="/fusion/welcome.png" alt="imagen de la cabecera" width={585} height={646} />
     </div>
   </header>
 );  

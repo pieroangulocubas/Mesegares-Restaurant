@@ -84,7 +84,7 @@ export default function Home() {
       <section className="py-[64px] md:py-[100px]" id="about">
         <div className="container flex flex-col lg:flex-row gap-[64px] lg:gap-[128px] justify-center items-center">
           <div className="w-full sm:w-[400px]">
-            <img className="w-full rounded-md" src="/dueña.jpg" alt="fotografía de la dueña" />
+            <Image className="w-full rounded-md" src="/dueña.jpg" alt="fotografía de la dueña" width={3292} height={4938} />
           </div>
           <div className="flex flex-col gap-[36px]">
             <div className="flex flex-col w-full sm:w-[500px] gap-[24px]">
@@ -108,15 +108,15 @@ export default function Home() {
         <div className="container relative lg:h-[800px] flex flex-col gap-10 items-center justify-center">
           <div className="lg:absolute top-0 left-0">
             <Image src="/cerdo.jpg" alt="plato de cerdo a la parrilla" className="rounded-3xl lg:rounded-[100px]" width={600} height={400} />
-            <img src="/aji.png" alt="" className="absolute hidden  lg:block top-100" />
+            <Image src="/aji.png" alt="aji" width={229} height={237} className="absolute hidden  lg:block top-100" />
           </div>
           <div className="lg:absolute bottom-0 right-0">
             <Image src="/fresas.jpg" alt="plato con fresas" className="rounded-3xl lg:rounded-[100px]" width={600} height={400} />
-            <img src="/ajo.png" alt="" className="absolute hidden  lg:block bottom-0 right-[100%] z-10" />
+            <Image src="/ajo.png" alt="ajo" width={87} height={107} className="absolute hidden  lg:block bottom-0 right-[100%] z-10" />
           </div>
-          <img src="/tomate.png" alt="" className="absolute hidden  lg:block -top-[10%] right-[20%]" />
-          <img src="/rombo.png" alt="" className="absolute hidden  lg:block left-[95%] -top-[20%]" />
-          <img src="/rombo.png" alt="" className="absolute hidden  lg:block left-[15%] -bottom-[10%]" />
+          <Image src="/tomate.png" alt="tomate" width={294} height={200} className="absolute hidden  lg:block -top-[10%] right-[20%]" />
+          <Image src="/rombo.png"  alt="rombo decoracion" width={472} height={465} className="absolute hidden  lg:block left-[95%] -top-[20%]" />
+          <Image src="/rombo.png"  alt="rombo decoracion" width={472} height={465} className="absolute hidden  lg:block left-[15%] -bottom-[10%]" />
         </div>
       </section>
       <section className="py-[64px] md:py-[100px]" id="restaurants">
@@ -128,7 +128,7 @@ export default function Home() {
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
             <article className="sm:w-1/2 mb-10 px-4">
               <Link href="/ecuador" target="_blank" className="rounded-lg block h-96 overflow-hidden">
-                <img alt="content" className="object-contain md:object-cover hover:scale-105 transition duration-150 cursor-pointer object-center h-full w-full" src="/ecuador.jpg" />
+                <Image alt="salon del restaurante mesegares ecuador" width={960} height={960} className="object-contain md:object-cover hover:scale-105 transition duration-150 cursor-pointer object-center h-full w-full" src="/ecuador.jpg" />
               </Link>
               <h3 className="text-[28px] sm:text-[32px] font-medium text-gray-900 mt-6 mb-3">Los Mesegares (Restaurante Ecuatoriano) </h3>
               <p className="leading-relaxed text-base">Ven y disfruta de los auténticos sabores ecuatorianos preparados por chefs expertos con ingredientes frescos y auténticos. Ofrecemos una variedad de opciones que van desde el tradicional ceviche hasta platillos innovadores, para satisfacer todos los gustos. Además, nuestra cálida hospitalidad ecuatoriana te hará sentir como en casa en una experiencia culinaria inolvidable.</p>
@@ -137,7 +137,7 @@ export default function Home() {
             </article>
             <article className="sm:w-1/2 mb-10 px-4">
               <Link href="/fusion" target="_blank" className="rounded-lg block h-96 overflow-hidden">
-                <img alt="content" className="object-contain md:object-cover object-center hover:scale-105 transition duration-150 cursor-pointer h-full w-full" src="/fachada.jpg" />
+                <Image alt="fachada del restaurante mesegares fusion" width={3543} height={2362} className="object-contain md:object-cover object-center hover:scale-105 transition duration-150 cursor-pointer h-full w-full" src="/fachada.jpg" />
               </Link>
               <h3 className="font-medium text-[28px] sm:text-[32px]  text-gray-900 mt-6 mb-3">Los Mesegares Fusión</h3>
               <p className="leading-relaxed text-base">Ven y disfruta de una fusión única de sabores españoles y latinos. Nuestros chefs expertos preparan platillos deliciosos con ingredientes frescos y auténticos que reflejan lo mejor de ambas culturas culinarias. Desde tapas españolas hasta platos latinos con un toque español, hay algo para todos los gustos. Y por supuesto, nuestra cálida hospitalidad te hará sentir como en casa en una experiencia culinaria inolvidable.</p>

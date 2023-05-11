@@ -5,13 +5,14 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import styles from '@/styles/Navbar.module.css';
 import { useState } from 'react';
 import { classNames } from '@/utils/classNames';
+import Image from 'next/image';
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className={classNames(styles["app__navbar"])}>
       <Link href="#" className={classNames(styles["app__navbar-logo"])}>
-        <img src="/fusion/logo-fusion.png" alt="logo" />
+        <Image src="/fusion/logo-fusion.png" alt="logo" width={447} height={437} />
       </Link>
       <ul className={classNames(styles["app__navbar-links"])}>
         <li className="p__opensans"><Link href="#home">Inicio</Link></li>

@@ -1,4 +1,5 @@
 import { SubHeading } from "@/components/fusion";
+import Image from "next/image";
 import Link from "next/link";
 import {SiGooglemaps} from 'react-icons/si'
 export const FindUs = () => (
@@ -19,7 +20,7 @@ export const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img w-[]" >
-      <img src="/fusion/vino.png" alt="vino tinto" />
+      <Image src="/fusion/vino.png" alt="vino tinto" width={1334} height={1472} />
     </div>
   </section>
 );

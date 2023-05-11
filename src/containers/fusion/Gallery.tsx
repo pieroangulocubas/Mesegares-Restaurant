@@ -8,6 +8,7 @@ import { classNames } from 'utils/classNames';
 import styles from '@/styles/Gallery.module.css';
 import { SubHeading } from '@/components/fusion';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const Gallery = () => {
   const scrollRef = useRef<any>(null);
@@ -27,14 +28,14 @@ export const Gallery = () => {
       <div className={classNames(styles["app__gallery-content"])}>
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Galería de fotos</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>¡Descubre nuestras deliciosas creaciones en "Mesegares Fusión"! Síguenos en Instagram para estar al tanto de las novedades en nuestro restaurante de comida fusion. Explora nuestras fotos y descubre nuestra irresistible fusión de sabores.</p>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>¡Descubre nuestras deliciosas creaciones en Mesegares Fusión! Síguenos en Instagram para estar al tanto de las novedades en nuestro restaurante de comida fusion. Explora nuestras fotos y descubre nuestra irresistible fusión de sabores.</p>
         <Link href="https://instagram.com" target='__blank' className="custom__button mt-8">Síguenos</Link>
       </div>
       <div className={classNames(styles["app__gallery-images"])}>
         <div className={classNames(styles["app__gallery-images_container"])} ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div className={classNames(styles["app__gallery-images_card"],"flex__center")} key={`gallery_image-${index + 1}`}>
-              <img src={image} alt="gallery_image" />
+              <Image src={image} alt="gallery_image" width={2362}  height={3543} />
               <BsInstagram className={classNames(styles["gallery__image-icon"])} />
             </div>
           ))}

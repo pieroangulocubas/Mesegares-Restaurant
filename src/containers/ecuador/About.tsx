@@ -16,7 +16,6 @@ export const About = () => {
       <div className='container mx-auto min-h-[620px]'>
         {/* text & image wrapper */}
         <motion.div
-          variants={staggerContainer}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.6 }}

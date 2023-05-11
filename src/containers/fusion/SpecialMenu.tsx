@@ -1,11 +1,11 @@
 import { classNames } from 'utils/classNames';
-
 import { MenuItem, SubHeading } from '@/components/fusion';
 import { cocktails, wines } from '@/constants/data';
 import styles from '@/styles/SpecialMenu.module.css';
+import Image from 'next/image';
 import Link from 'next/link';
-import { MdFreeBreakfast,MdRestaurant } from 'react-icons/md';
 import { IoMdWine } from 'react-icons/io';
+import { MdFreeBreakfast, MdRestaurant } from 'react-icons/md';
 
 export const SpecialMenu = () => (
   <section className={classNames(styles["app__specialMenu"],"flex__center","section__padding")} id="menu">
@@ -25,7 +25,7 @@ export const SpecialMenu = () => (
       </div>
 
       <div className={classNames(styles["app__specialMenu-menu_img"])}>
-        <img src="/fusion/carta.jpg" alt="imagen de la portada de la carta" className='rounded-md' />
+        <Image src="/fusion/carta.jpg" alt="imagen de la portada de la carta" className='rounded-md' width={410} height={615} />
       </div>
 
       <div className={classNames(styles["app__specialMenu-menu_cocktails"],"flex__center")}>
