@@ -35,7 +35,7 @@ export const Gallery = () => {
         <div className={classNames(styles["app__gallery-images_container"])} ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div className={classNames(styles["app__gallery-images_card"],"flex__center")} key={`gallery_image-${index + 1}`}>
-              <Image src={image} alt="gallery_image" width={2362}  height={3543} />
+              <Image src={image} alt="gallery_image" width={1181}  height={1772} />
               <BsInstagram className={classNames(styles["gallery__image-icon"])} />
             </div>
           ))}

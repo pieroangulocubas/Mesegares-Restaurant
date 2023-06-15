@@ -13,7 +13,7 @@ export const AboutUs = () => (
       </div>
 
       <div className={classNames(styles["app__aboutus-content_knife"],"flex__center")}>
-        <Image src="/fusion/knife.png" alt="about_knife" width={168} height={1406} />
+        <Image src="/fusion/knife.png" alt="about_knife" width={108} height={910} />
       </div>
 
       <div className={classNames(styles["app__aboutus-content_history"])}>

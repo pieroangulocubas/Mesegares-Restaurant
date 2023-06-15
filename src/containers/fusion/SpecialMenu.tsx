@@ -11,12 +11,12 @@ export const SpecialMenu = () => (
   <section className={classNames(styles["app__specialMenu"],"flex__center","section__padding")} id="menu">
     <div className={classNames(styles["app__specialMenu-title"],"flex flex-col items-center")}>
       <SubHeading title="Menu que se adapta a tu paladar" />
-      <h1 className="headtext__cormorant">Especiales del día</h1>
+      <h1 className="headtext__cormorant">Algunos de los platillos favoritos</h1>
     </div>
 
     <div className={classNames(styles["app__specialMenu-menu"])}>
       <div className={classNames(styles["app__specialMenu-menu_wine"],"flex__center")}>
-        <p className={classNames(styles["app__specialMenu-menu_heading"])}>Vinos & Cervezas</p>
+        <p className={classNames(styles["app__specialMenu-menu_heading"])}>Carnes</p>
         <div className={classNames(styles["app__specialMenu_menu_items"])}>
           {wines.map((wine, index) => (
             <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
@@ -29,7 +29,7 @@ export const SpecialMenu = () => (
       </div>
 
       <div className={classNames(styles["app__specialMenu-menu_cocktails"],"flex__center")}>
-        <p className={classNames(styles["app__specialMenu-menu_heading"])}>Cócteles</p>
+        <p className={classNames(styles["app__specialMenu-menu_heading"])}>Pescados</p>
         <div className={classNames(styles["app__specialMenu_menu_items"])}>
           {cocktails.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />

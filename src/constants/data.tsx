@@ -15,57 +15,57 @@ export const socialData = [
 
 export const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Entrecot de ternera',
+    price: '15,00€',
+    tags: 'FR | Ternera',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Solomillo de ternera',
+    price: '16,50€',
+    tags: 'ES | Ternera',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Chuletillas de cordero',
+    price: '15,50€',
+    tags: 'ES | Cordero',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Solomillo Ibérico al Roquefort',
+    price: '12,50€',
+    tags: 'ES | Ternera',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Parrillada al Oporto',
+    price: '14,50€',
+    tags: 'PT | Ternera',
   },
 ];
 
 export const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Bacalao Roteña',
+    price: '14,50€',
+    tags: 'Bacalao | Salsa Roteña | Patatas',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Merluza a la vasca",
+    price: '15,90€',
+    tags: 'Merluza | Salsa Vasca | Patatas ',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Emperador a la plancha',
+    price: '14,50€',
+    tags: 'Emperador | Verduras | Patatas',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Ceviche mixto',
+    price: '17,00€',
+    tags: 'Pescado | Mariscos | Frio ',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Arroz marinero',
+    price: '16,50€',
+    tags: 'Gambas | Mariscos | Caliente ',
   },
 ];
 

@@ -84,7 +84,7 @@ export default function Home() {
       <section className="py-[64px] md:py-[100px]" id="about">
         <div className="container flex flex-col lg:flex-row gap-[64px] lg:gap-[128px] justify-center items-center">
           <div className="w-full sm:w-[400px]">
-            <Image className="w-full rounded-md" src="/dueña.jpg" alt="fotografía de la dueña" width={3292} height={4938} />
+            <Image className="w-full rounded-md" src="/dueña.jpg" alt="fotografía de la dueña" width={1600} height={2400} />
           </div>
           <div className="flex flex-col gap-[36px]">
             <div className="flex flex-col w-full sm:w-[500px] gap-[24px]">
@@ -137,7 +137,7 @@ export default function Home() {
             </article>
             <article className="sm:w-1/2 mb-10 px-4">
               <Link href="/fusion" target="_blank" className="rounded-lg block h-96 overflow-hidden">
-                <Image alt="fachada del restaurante mesegares fusion" width={3543} height={2362} className="object-contain md:object-cover object-center hover:scale-105 transition duration-150 cursor-pointer h-full w-full" src="/fachada.jpg" />
+                <Image alt="fachada del restaurante mesegares fusion" width={1128} height={768} className="object-contain md:object-cover object-center hover:scale-105 transition duration-150 cursor-pointer h-full w-full" src="/fachada.jpg" />
               </Link>
               <h3 className="font-medium text-[28px] sm:text-[32px]  text-gray-900 mt-6 mb-3">Los Mesegares Fusión</h3>
               <p className="leading-relaxed text-base">Ven y disfruta de una fusión única de sabores españoles y latinos. Nuestros chefs expertos preparan platillos deliciosos con ingredientes frescos y auténticos que reflejan lo mejor de ambas culturas culinarias. Desde tapas españolas hasta platos latinos con un toque español, hay algo para todos los gustos. Y por supuesto, nuestra cálida hospitalidad te hará sentir como en casa en una experiencia culinaria inolvidable.</p>
