@@ -15,13 +15,13 @@ export const Chef = () => (
       <div className={classNames(styles["app__chef-content"])}>
         <div className={classNames(styles["app__chef-content_quote"])}>
           <Image src="/fusion/quote.png" alt="quote_image" width={94} height={80} />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className="p__opensans">¡Te invitamos a probar nuestra deliciosa fusión de sabores en nuestro restaurante!</p>
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans"> Permítenos llevar tu paladar a un viaje lleno de emociones, donde el fuego de la cocina y el amor por la gastronomía se unen para crear momentos memorables. </p>
       </div>
 
       <div className={classNames(styles["app__chef-sign"])}>
-        <p>Kevin Luo</p>
+        <p>Ana María</p>
         <p className="p__opensans">Chef</p>
       </div>
     </div>
